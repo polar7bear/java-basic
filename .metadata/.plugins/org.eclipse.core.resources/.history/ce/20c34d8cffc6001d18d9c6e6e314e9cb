@@ -1,0 +1,5 @@
+package sec4;
+
+public class javaWeb {
+	static String dm = "김철수" // 정적 멤버 - 공유 데이터로서 객체를 생성하지 않고 활용
+}

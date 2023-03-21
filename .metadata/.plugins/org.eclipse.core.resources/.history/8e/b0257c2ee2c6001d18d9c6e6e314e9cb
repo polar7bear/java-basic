@@ -1,0 +1,22 @@
+package sec2;
+
+public class Food2 {
+	private String name;
+	private int quantity;
+	private int price;
+	
+	public Food2(){
+		this("라면");
+	}
+	public Food2(String name){
+		this(name, 400);
+	}
+	public Food2(String name, int quantity){
+		this(name, quantity, 5000);
+	}
+	public Food2(String name, int quantity, int price){
+		this.name = name;
+		this.quantity = quantity;
+		this.price = price;
+	}
+}

@@ -1,0 +1,14 @@
+package sec2;
+
+public class Food2 {
+	private String name;
+	private int quantity;
+	private int price;
+	
+	public Food2(){
+		this("라면");
+	}
+	public Food2(String name){
+		this(name, 400);
+	}
+}

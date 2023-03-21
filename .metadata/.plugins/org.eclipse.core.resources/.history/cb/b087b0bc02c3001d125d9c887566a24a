@@ -1,0 +1,16 @@
+package sec1;
+
+public class Example3 {
+
+	public static void main(String[] args) {
+		int[] arr1;
+		int[] arr2;
+		int[] arr3;
+		
+		arr1 = new int[]{1,2,3,4};
+		arr2 = new int[]{1,2,3,4};
+		arr3 = arr2; //얕은 복제는 주소만 전달
+
+	}
+
+}

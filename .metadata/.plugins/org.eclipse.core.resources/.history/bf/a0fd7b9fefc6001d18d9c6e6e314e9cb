@@ -1,0 +1,19 @@
+package sec3;
+
+public class StudentEx1 {
+
+	public static void main(String[] args) {
+		Student st1 = new Student("김철수", 15, 90, 95, 80);
+		Student st2 = new Student("김병철", 13, 70, 55, 80);
+		Student st3 = new Student("김현우", 18, 95, 100, 90);
+		Student st4 = new Student("김민재", 17, 100, 85, 95);
+		st1.getTot(); 
+		st1.setTot();
+		
+		System.out.println("이름 : "+st1.getName()+"\t나이 : "+st1.getAge()+"\t\tpg 점수 : "+st1.getPg()+"\tdb 점수 : "+st1.getDb()+"\tui 점수 : "+st1.getUi()+"\t총점 : "+st1.getTot()+"\t평균 : "+st1.getAvg());
+		System.out.println("이름 : "+st2.getName()+"\t나이 : "+st2.getAge()+"\t\tpg 점수 : "+st2.getPg()+"\tdb 점수 : "+st2.getDb()+"\tui 점수 : "+st2.getUi()+"\t총점 : "+st2.getTot()+"\t평균 : "+st2.getAvg());
+	
+	
+	}
+
+}

@@ -1,0 +1,14 @@
+package sec2;
+
+public class Example2 {
+
+	public static void main(String[] args) {
+		//문자열 길이
+		String data = "김기태는 천사";
+		int len = data.length();
+		System.out.println("data의 글자수 : "+len);
+		
+
+	}
+
+}

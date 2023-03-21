@@ -1,0 +1,15 @@
+package sec1;
+
+public class CarEx1 {
+
+	public static void main(String[] args) {
+		Car car1 = new Car("현대", "아반떼", "white", 250, 0, );
+		
+		
+		Body body1 = new Body();
+		
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package sec5;
+
+import dao.Product;
+
+
+public class ProductEx1 {
+
+	public static void main(String[] args) {
+		Product pro1 = new Product();
+		pro1.name = "침대"; //접근제한이 public 이므로 다른패키지에서도 접근 가능
+		//pro1.pid = "A001"; 접근 제한이 default이므로 같은 패키지에서만 접근 가능
+		pro1.setPid("A001");
+		//pro1.style = "BED"; 접근제한이 protected 일 경우 상속 관계나 포함 관계일때 접근이 가능
+		pro1.setStyle("BED");
+		//pro1.acount = 10; 접근제한이 private 일 경우는 현재 클래스에서만 접근 가능
+		pro1.setAcount(10);
+		
+		
+		
+	}
+
+}

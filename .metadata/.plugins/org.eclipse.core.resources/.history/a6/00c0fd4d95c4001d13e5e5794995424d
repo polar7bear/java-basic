@@ -1,0 +1,43 @@
+package sec1;
+
+public class Human {
+	//[접근제한자] 타입 필드명;
+	private String name;	//멤버 필드
+	private int male;
+	private int age;
+	private int height;
+	private int weight;
+	
+	//[접근제한자] 반환타입 메소드명([매개변수타입 매개변수명]){}
+	public String getName() {	//멤버 메소드(getter/setter)
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getMale() {
+		return male;
+	}
+	public void setMale(int male) {
+		this.male = male;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public int getHeight() {
+		return height;
+	}
+	public void setHeight(int height) {
+		this.height = height;
+	}
+	public int getWeight() {
+		return weight;
+	}
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+	
+}

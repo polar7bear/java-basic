@@ -1,0 +1,9 @@
+package dao;
+
+public class Product {
+	public String name; 		//public
+	String pid;					//default
+	protected String style;		//protected 
+	private int acount;			//private
+	
+}

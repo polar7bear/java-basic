@@ -1,0 +1,17 @@
+package sec3;
+
+public class ShapeEx1 {
+
+	public static void main(String[] args) {
+		Shape one = new Shape();
+		one.setShapeType(0);
+		one.setHeight(7);
+		one.setLength(10);
+		
+		Shape tr = new Shape();
+		
+		tr.setShapeType(3);
+
+	}
+
+}
