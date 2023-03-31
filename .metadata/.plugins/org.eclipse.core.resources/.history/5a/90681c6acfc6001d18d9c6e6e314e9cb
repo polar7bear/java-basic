@@ -1,8 +1,0 @@
-package sec1;
-
-public class Body {
-	String style = "세단";
-	String frendar = "앵글";
-	String bumper = "쉐드";
-
-}
